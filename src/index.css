@@ -1,4 +1,19 @@
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: aqua;
+  background-color: rgb(109, 40, 238);
+}
+
+.desktop-logo {
+  color: #ffffff;
+  font-size: 28px;
+}
+
+.mobile-logo {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
 }

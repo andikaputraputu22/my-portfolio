@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Heronya from '../components/Heronya';
 import Navbarnya from '../components/Navbarnya';
 
 class Profile extends Component {
@@ -6,6 +7,9 @@ class Profile extends Component {
         return (
             <div>
                 <Navbarnya />
+                <main ref="main">
+                    <Heronya />
+                </main>
             </div>
         )
     }
