@@ -1,6 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: rgb(109, 40, 238);
+  /* background-color: rgb(109, 40, 238); */
 }
 
 .desktop-logo {
@@ -16,4 +16,13 @@ body {
 .navbar-nav .nav-link {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
+}
+
+.lead {
+  font-weight: 200;
+}
+
+.hero-profile-name {
+  color: #fff;
+  margin-top: 20px;
 }

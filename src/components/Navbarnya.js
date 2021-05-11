@@ -109,7 +109,7 @@ class Navbarnya extends Component {
                                         </NavLink>
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink className="nav-link-icon" href="" target="_blank">
+                                        <NavLink className="nav-link-icon" href="https://github.com/andikaputraputu22" target="_blank">
                                             <i className="fa fa-github" />
                                             <span className="nav-link-inner--text d-lg-none ml-2">
                                                 Github
