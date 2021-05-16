@@ -17,15 +17,12 @@ const Heronya = () => {
                         <div className="col px-0">
                             <Row className="align-items-center justify-content-center">
                                 <Col className="text-center" lg="6">
-                                    <img
-                                        className="img-fluid rounded-circle shadow img-thumbnail"
-                                        src="/images/photo_profile.jpg"
-                                        alt="Andika Putra"
-                                        style={{width: "150px"}}
-                                    />
-                                    <h4 className="hero-profile-name">I Putu Andika Putra, S.Kom., BIT</h4>
+                                    <h1 className="display-3 text-white">
+                                        Hi Friends, Welcome{" "}
+                                        <span>MoonlightSplitter's Portfolio</span>
+                                    </h1>
                                     <p className="lead text-white">
-                                        A Mobile Programmer and Web Developer. Please Feel Free to Contact Me.
+                                        Nice to meet you. How are you today? It's a great day. Hope all of you have a great day too.
                                     </p>
                                     <div className="btn-wrapper mt-5">
                                         <Row>
