@@ -12,7 +12,7 @@ const Aboutnya = () => {
             <Container>
                 <Row className="justify-content-center text-center mb-md">
                     <Col lg="8">
-                        <h2 className="display-3">The Amazing About Me</h2>
+                        <h2 className="display-3">About Me</h2>
                         <p className="lead text-muted">
                             Remember, being capable because of talent is amazing. But, being capable because of effort is more than talent.
                         </p>
@@ -26,24 +26,24 @@ const Aboutnya = () => {
                                 src="/images/photo_profile.jpg"
                                 alt="Andika Putra"
                                 style={{width: "200px"}}
-                             />
-                             <div className="pt-4 text-center">
+                            />
+                            <div className="pt-4 text-center">
                                 <h5 className="title">
-                                    <span className="d-block mb-1">I Putu Andika Putra</span>
-                                    <small className="h6 text-muted">Mobile and Web Developer</small>
+                                    <span className="d-block mb-1">I Putu Andika Putra, S.Kom., BIT</span>
+                                    <small className="h6 text-muted">Mobile and Web Developer - PT. Appkey (2018)</small>
                                 </h5>
                                 <div className="mt-3">
-                                    <Button className="btn-icon-only rounded-circle" color="primary" href="">
+                                    <Button className="btn-icon-only rounded-circle" color="primary" href="https://twitter.com/andikaputrap_" target="_blank">
                                         <i className="fa fa-twitter" />
                                     </Button>
-                                    <Button className="btn-icon-only rounded-circle ml-1" color="primary" href="">
+                                    <Button className="btn-icon-only rounded-circle ml-1" color="primary" href="https://www.facebook.com/profile.php?id=100032534376429" target="_blank">
                                         <i className="fa fa-facebook" />
                                     </Button>
-                                    <Button className="btn-icon-only rounded-circle ml-1" color="primary" href="">
+                                    <Button className="btn-icon-only rounded-circle ml-1" color="primary" href="https://www.instagram.com/andikaputraputu/" target="_blank">
                                         <i className="fa fa-instagram" />
                                     </Button>
                                 </div>
-                             </div>
+                            </div>
                         </div>
                     </Col>
                 </Row>
