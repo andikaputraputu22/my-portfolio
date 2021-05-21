@@ -26,3 +26,16 @@ body {
   color: #fff;
   margin-top: 20px;
 }
+
+.wrapper-skill {
+  color: #ffffff;
+  background-color: #5e72e4;
+  padding: 12px;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  font-size: 2rem;
+}

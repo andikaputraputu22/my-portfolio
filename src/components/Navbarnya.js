@@ -65,13 +65,13 @@ class Navbarnya extends Component {
                                 </div>
                                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
                                     <NavItem>
-                                        <NavLink href="">
+                                        <NavLink href="/">
                                             <i className="fa fa-desktop d-lg-none mr-1" />
                                             <span className="nav-link-inner--text">Home</span>
                                         </NavLink>
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink href="">
+                                        <NavLink href="#section_about">
                                             <i className="fa fa-coffee d-lg-none mr-1" />
                                             <span className="nav-link-inner--text">About</span>
                                         </NavLink>
@@ -85,7 +85,7 @@ class Navbarnya extends Component {
                                 </Nav>
                                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
                                     <NavItem>
-                                        <NavLink className="nav-link-icon" href="" target="_blank">
+                                        <NavLink className="nav-link-icon" href="https://www.facebook.com/profile.php?id=100032534376429" target="_blank">
                                             <i className="fa fa-facebook-square" />
                                             <span className="nav-link-inner--text d-lg-none ml-2">
                                                 Facebook
@@ -93,7 +93,7 @@ class Navbarnya extends Component {
                                         </NavLink>
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink className="nav-link-icon" href="" target="_blank">
+                                        <NavLink className="nav-link-icon" href="https://www.instagram.com/andikaputraputu/" target="_blank">
                                             <i className="fa fa-instagram" />
                                             <span className="nav-link-inner--text d-lg-none ml-2">
                                                 Instagram
@@ -101,7 +101,7 @@ class Navbarnya extends Component {
                                         </NavLink>
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink className="nav-link-icon" href="" target="_blank">
+                                        <NavLink className="nav-link-icon" href="https://twitter.com/andikaputrap_" target="_blank">
                                             <i className="fa fa-twitter-square" />
                                             <span className="nav-link-inner--text d-lg-none ml-2">
                                                 Twitter

@@ -8,7 +8,7 @@ import {
 
 const Aboutnya = () => {
     return (
-        <section className="section section-lg">
+        <section id="section_about" className="section section-lg">
             <Container>
                 <Row className="justify-content-center text-center mb-md">
                     <Col lg="8">
@@ -30,7 +30,8 @@ const Aboutnya = () => {
                             <div className="pt-4 text-center">
                                 <h5 className="title">
                                     <span className="d-block mb-1">I Putu Andika Putra, S.Kom., BIT</span>
-                                    <small className="h6 text-muted">Mobile and Web Developer - PT. Appkey (2018)</small>
+                                    <small className="h6 text-muted">Mobile Programmer and Web Developer</small>
+                                    <div className="h6 text-muted mt-1">Bali - Indonesia</div>
                                 </h5>
                                 <div className="mt-3">
                                     <Button className="btn-icon-only rounded-circle" color="primary" href="https://twitter.com/andikaputrap_" target="_blank">
