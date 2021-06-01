@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Aboutnya from '../components/Aboutnya';
 import Heronya from '../components/Heronya';
 import Navbarnya from '../components/Navbarnya';
+import Servicenya from '../components/Servicenya';
 
 class Profile extends Component {
     render() {
@@ -11,6 +12,7 @@ class Profile extends Component {
                 <main ref="main">
                     <Heronya />
                     <Aboutnya />
+                    <Servicenya />
                 </main>
             </div>
         )

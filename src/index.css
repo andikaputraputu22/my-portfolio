@@ -28,14 +28,19 @@ body {
 }
 
 .wrapper-skill {
-  color: #ffffff;
-  background-color: #5e72e4;
-  padding: 12px;
+  padding: 12px 0;
+  border: 1px solid lightgray;
+  border-radius: 4px;
   text-align: center;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 4rem;
-  height: 4rem;
-  font-size: 2rem;
+  font-size: 30px;
+  width: 100%;
+  color: #172b4d;
+}
+
+.custom-heading {
+  color: #172b4d;
+}
+
+.col-skill {
+  padding: 16px 16px;
 }
