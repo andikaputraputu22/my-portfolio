@@ -44,3 +44,105 @@ body {
 .col-skill {
   padding: 16px 16px;
 }
+
+.timeline-wrapper {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.timeline {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.timeline ul {
+  list-style: none;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.timeline ul li {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.timeline ul li:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-content .date {
+  color: #32325d;
+}
+
+.timeline-content .role {
+  color: #32325d;
+  font-size: 1rem;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  .timeline::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #32325d;
+  }
+  
+  .timeline ul li {
+    width: 50%;
+    margin-bottom: 50px;
+    position: relative;
+  }
+
+  .timeline ul li:nth-child(odd) {
+    float: left;
+    clear: right;
+    transform: translateX(-30px);
+    border-radius: 20px 0px 20px 20px;
+  }
+
+  .timeline ul li:nth-child(even) {
+    float: right;
+    clear: left;
+    transform: translateX(30px);
+    border-radius: 0px 20px 20px 20px;
+  }
+
+  .timeline ul li::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #32325d;
+    border-radius: 50%;
+    top: 0;
+  }
+
+  .timeline ul li:nth-child(odd)::after {
+    transform: translate(50%, -50%);
+    right: -30px;
+  }
+
+  .timeline ul li:nth-child(even)::after {
+    transform: translate(-50%, -50%);
+    left: -30px;
+  }
+
+  .timeline ul li:hover:after {
+    background-color: gray;
+  }
+
+  .timeline-content .date {
+    position: absolute;
+    top: -30px;
+  }
+}
