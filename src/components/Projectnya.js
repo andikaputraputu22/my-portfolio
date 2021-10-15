@@ -29,7 +29,7 @@ const Projectnya = () => {
                                     <CardBody className="py-5">
                                         <img
                                             className="img-fluid rounded portfolio-img mb-4"
-                                            src="/images/info_vaksinasi.png"
+                                            src="/images/info_vaksinasi.PNG"
                                             alt="Info Vaksinasi Indonesia"
                                         />
                                         <h6 className="text-uppercase portfolio-title">Info Vaksinasi</h6>
@@ -52,8 +52,8 @@ const Projectnya = () => {
                                     <CardBody className="py-5">
                                         <img
                                             className="img-fluid rounded portfolio-img mb-4"
-                                            src="/images/personal_website.png"
-                                            alt="Info Vaksinasi Indonesia"
+                                            src="/images/personal_website.PNG"
+                                            alt="My Personal Website"
                                         />
                                         <h6 className="text-uppercase portfolio-title">Personal Website</h6>
                                         <p className="description mt-3">
