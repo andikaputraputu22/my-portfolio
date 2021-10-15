@@ -77,7 +77,7 @@ class Navbarnya extends Component {
                                         </NavLink>
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink href="">
+                                        <NavLink href="#section_project">
                                             <i className="fa fa-tasks d-lg-none mr-1" />
                                             <span className="nav-link-inner--text">Projects</span>
                                         </NavLink>

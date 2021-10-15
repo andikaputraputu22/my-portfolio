@@ -3,6 +3,7 @@ import Aboutnya from '../components/Aboutnya';
 import Experiencenya from '../components/Experiencenya';
 import Heronya from '../components/Heronya';
 import Navbarnya from '../components/Navbarnya';
+import Projectnya from '../components/Projectnya';
 import Servicenya from '../components/Servicenya';
 
 class Profile extends Component {
@@ -15,6 +16,7 @@ class Profile extends Component {
                     <Aboutnya />
                     <Servicenya />
                     <Experiencenya />
+                    <Projectnya />
                 </main>
             </div>
         )

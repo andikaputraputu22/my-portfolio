@@ -30,7 +30,7 @@ const Aboutnya = () => {
                             <div className="pt-4 text-center">
                                 <h5 className="title">
                                     <span className="d-block mb-1">I Putu Andika Putra, S.Kom., BIT</span>
-                                    <small className="h6 text-muted">Mobile Programmer and Web Developer</small>
+                                    <small className="h6 text-muted">Mobile and Web Developer</small>
                                     <div className="h6 text-muted mt-1">Bali - Indonesia</div>
                                 </h5>
                                 <div className="mt-3">
