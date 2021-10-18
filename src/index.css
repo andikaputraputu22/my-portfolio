@@ -104,6 +104,24 @@ body {
   margin-top: 3rem;
 }
 
+.custom-footer {
+  background: none;
+  margin-top: 40px;
+}
+
+.custom-footer hr {
+  border-top: none;
+  background-color: #ffffff;
+}
+
+.custom-footer .footer-content {
+  color: #8898aa;
+}
+
+.custom-contact {
+  padding-bottom: 1rem;
+}
+
 @media only screen and (min-width: 768px) {
   .timeline::before {
     content: '';

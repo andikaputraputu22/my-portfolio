@@ -9,10 +9,11 @@ import {
     Input,
     Button
 } from 'reactstrap';
+import Footernya from "./Footernya";
 
 const Contactnya = () => {
     return (
-        <section className="section section-lg bg-gradient-default">
+        <section className="section section-lg bg-gradient-default custom-contact">
             <Container>
                 <Row className="justify-content-center text-center mb-md">
                     <Col lg="8">
@@ -91,6 +92,7 @@ const Contactnya = () => {
                     </Col>
                 </Row>
             </Container>
+            <Footernya />
         </section>
     )
 }
