@@ -1,4 +1,5 @@
-import React from "react";
+import axios from "axios";
+import React, { useState } from "react";
 import {
     Container,
     Row,
@@ -7,13 +8,55 @@ import {
     CardBody,
     FormGroup,
     Input,
-    Button
+    Button,
+    Alert,
+    Spinner
 } from 'reactstrap';
 import Footernya from "./Footernya";
 
 const Contactnya = () => {
+    const [message, setMessage] = useState({name: "",
+                                            email: "",
+                                            message: ""})
+
+    const onChangeValue = (e) => {
+        setMessage({...message, [e.target.name] : e.target.value})
+    }
+
+    const sendMessage = (e) => {
+        e.preventDefault()
+        
+        const alert = document.querySelector('#my-alert')
+        const spinner = document.querySelector('#my-spinner')
+        const sendBtn = document.querySelector('#my-button')
+        const url = 'https://script.google.com/macros/s/AKfycbwZWj2zG3ohXepVPKAFC8srlS9PGkpgHghIbbZi1wgtix0W3KCxCvyuWD7fnF6WiifDQA/exec'
+        const form = document.forms['form-contact']
+        
+        var dataForm = new FormData()
+        for (var key in message) {
+            dataForm.append(key, message[key])
+        }
+        
+        sendBtn.classList.toggle('d-none')
+        spinner.classList.toggle('d-none')
+        alert.classList.add('d-none')
+
+        // //Using fetch
+        // fetch(url, { method: 'POST', body: dataForm})
+        //   .then(response => console.log('Success!', response))
+        //   .catch(error => console.error('Error!', error.message))
+
+        //Using axios
+        axios.post(url, dataForm).then((response) => {
+            sendBtn.classList.toggle('d-none')
+            spinner.classList.toggle('d-none')
+            alert.classList.toggle('d-none')
+            form.reset()
+        })
+    }
+
     return (
-        <section className="section section-lg bg-gradient-default custom-contact">
+        <section id="section_contact" className="section section-lg bg-gradient-default custom-contact">
             <Container>
                 <Row className="justify-content-center text-center mb-md">
                     <Col lg="8">
@@ -48,34 +91,42 @@ const Contactnya = () => {
                                         <p className="mt-0">
                                             Please feel free to contact me.
                                         </p>
-                                        <form className="mt-5">
+                                        <form className="mt-5" name="form-contact" onSubmit={sendMessage}>
+                                            <Alert id="my-alert" className="d-none" color="success">Your message was sent successfully.</Alert>
                                             <FormGroup>
                                                 <Input
+                                                    name="name"
                                                     className="form-control-alternative"
                                                     placeholder="Your name"
                                                     type="text"
                                                     required
+                                                    onChange={onChangeValue}
                                                 />
                                             </FormGroup>
                                             <FormGroup>
                                                 <Input
+                                                    name="email"
                                                     className="form-control-alternative"
                                                     placeholder="Your email"
                                                     type="email"
                                                     required
+                                                    onChange={onChangeValue}
                                                 />
                                             </FormGroup>
                                             <FormGroup>
                                                 <Input
+                                                    name="message"
                                                     className="form-control-alternative"
                                                     placeholder="Type a message"
                                                     type="textarea"
                                                     rows="4"
                                                     required
+                                                    onChange={onChangeValue}
                                                 />
                                             </FormGroup>
-                                            <div>
+                                            <div className="justify-content-center text-center">
                                                 <Button
+                                                    id="my-button"
                                                     block
                                                     className="btn-round"
                                                     color="default"
@@ -83,6 +134,7 @@ const Contactnya = () => {
                                                     type="submit"
                                                     >Send Message
                                                 </Button>
+                                                <Spinner id="my-spinner" color="primary" className="d-none" />
                                             </div>
                                         </form>
                                     </CardBody>

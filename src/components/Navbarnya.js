@@ -117,7 +117,7 @@ class Navbarnya extends Component {
                                         </NavLink>
                                     </NavItem>
                                     <NavItem className="d-none d-lg-block ml-lg-4">
-                                        <Button className="btn-neutral btn-icon" color="default" href="" target="_blank">
+                                        <Button className="btn-neutral btn-icon" color="default" href="#section_contact">
                                             <span className="btn-inner--icon">
                                                 <i className="fa fa-address-book mr-2" />
                                             </span>

@@ -30,7 +30,7 @@ const Heronya = () => {
                                                 <Button
                                                     className="btn-white btn-icon mb-3 mb-sm-0"
                                                     color="default"
-                                                    href=""
+                                                    href="#section_contact"
                                                     size="lg"
                                                     style={{width: "100%"}}>
                                                     <span className="btn-inner--icon mr-1">
