@@ -101,10 +101,10 @@ class Navbarnya extends Component {
                                         </NavLink>
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink className="nav-link-icon" href="https://twitter.com/andikaputrap_" target="_blank">
-                                            <i className="fa fa-twitter-square" />
+                                        <NavLink className="nav-link-icon" href="https://www.linkedin.com/in/i-putu-andika-putra-s-kom-bit-9a05821b5/" target="_blank">
+                                            <i className="fa fa-linkedin" />
                                             <span className="nav-link-inner--text d-lg-none ml-2">
-                                                Twitter
+                                                LinkedIn
                                             </span>
                                         </NavLink>
                                     </NavItem>

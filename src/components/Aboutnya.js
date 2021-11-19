@@ -7,6 +7,10 @@ import {
 } from 'reactstrap';
 
 const Aboutnya = () => {
+    
+    let data_about1 = "I've been working as a developer since 2018. I have expertise and specialization in building mobile applications especially on Android and iOS platforms. I also have experience in developing web-based frontend applications using React JS and Vue JS. I have good knowledge in various programming languages like Java, Kotlin, Swift, Javascript, PHP, and also HTML & CSS as Markup Language."
+    let data_about2 = "I really like to try and learn new things. In the world of developers, there are many things that we can learn. And I will confidently put myself there."
+
     return (
         <section id="section_about" className="section section-lg">
             <Container>
@@ -14,7 +18,10 @@ const Aboutnya = () => {
                     <Col lg="8">
                         <h2 className="display-3">About Me</h2>
                         <p className="lead text-muted">
-                            Remember, being capable because of talent is amazing. But, being capable because of effort is more than talent.
+                            {data_about1}
+                        </p>
+                        <p className="lead text-muted">
+                            {data_about2}
                         </p>
                     </Col>
                 </Row>
@@ -34,8 +41,8 @@ const Aboutnya = () => {
                                     <div className="h6 text-muted mt-1">Bali - Indonesia</div>
                                 </h5>
                                 <div className="mt-3">
-                                    <Button className="btn-icon-only rounded-circle" color="primary" href="https://twitter.com/andikaputrap_" target="_blank">
-                                        <i className="fa fa-twitter" />
+                                    <Button className="btn-icon-only rounded-circle" color="primary" href="https://www.linkedin.com/in/i-putu-andika-putra-s-kom-bit-9a05821b5/" target="_blank">
+                                        <i className="fa fa-linkedin" />
                                     </Button>
                                     <Button className="btn-icon-only rounded-circle ml-1" color="primary" href="https://www.facebook.com/profile.php?id=100032534376429" target="_blank">
                                         <i className="fa fa-facebook" />
