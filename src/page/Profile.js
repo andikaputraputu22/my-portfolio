@@ -1,3 +1,4 @@
+import nProgress from 'nprogress';
 import React, {Component} from 'react';
 import Aboutnya from '../components/Aboutnya';
 import Contactnya from '../components/Contactnya';
@@ -8,6 +9,11 @@ import Projectnya from '../components/Projectnya';
 import Servicenya from '../components/Servicenya';
 
 class Profile extends Component {
+    componentDidMount() {
+        nProgress.start()
+        nProgress.done()
+    }
+
     render() {
         return (
             <div>

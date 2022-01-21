@@ -7,9 +7,8 @@ import {
 } from 'reactstrap';
 
 const Aboutnya = () => {
-    
-    let data_about1 = "I've been working as a developer since 2018. I have expertise and specialization in building mobile applications especially on Android and iOS platforms. I also have experience in developing web-based frontend applications using React JS and Vue JS. I have good knowledge in various programming languages like Java, Kotlin, Swift, Javascript, PHP, and also HTML & CSS as Markup Language."
-    let data_about2 = "I really like to try and learn new things. In the world of developers, there are many things that we can learn. And I will confidently put myself there."
+
+    let data_about = "Experienced Software Engineer with a demonstrated history of working in the information technology and services industry. Skilled in Mobile Application Development (Android and iOS), Kotlin, Java, Swift, Flutter, Fullstack application using Laravel, and Frontend application using ReactJS. Strong engineering professional with a Bachelor of Information Technology focused in Information Technology from HELP University."
 
     return (
         <section id="section_about" className="section section-lg">
@@ -18,10 +17,7 @@ const Aboutnya = () => {
                     <Col lg="8">
                         <h2 className="display-3">About Me</h2>
                         <p className="lead text-muted">
-                            {data_about1}
-                        </p>
-                        <p className="lead text-muted">
-                            {data_about2}
+                            {data_about}
                         </p>
                     </Col>
                 </Row>
