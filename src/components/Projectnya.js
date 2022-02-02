@@ -25,7 +25,7 @@ const Projectnya = () => {
                     <Col lg="12">
                         <Row className="row-grid">
                             <Col lg="4">
-                                <Card className="card-lift--hover border-0 portfolio-card">
+                                <Card className="card-lift--hover border-0 portfolio-card card-bottom-spacing">
                                     <CardBody className="py-5">
                                         <img
                                             className="img-fluid rounded portfolio-img mb-4"
@@ -51,7 +51,7 @@ const Projectnya = () => {
                                 </Card>
                             </Col>
                             <Col lg="4">
-                                <Card className="card-lift--hover border-0 portfolio-card">
+                                <Card className="card-lift--hover border-0 portfolio-card card-bottom-spacing">
                                     <CardBody className="py-5">
                                         <img
                                             className="img-fluid rounded portfolio-img mb-4"
@@ -77,14 +77,14 @@ const Projectnya = () => {
                                 </Card>
                             </Col>
                             <Col lg="4">
-                                <Card className="card-lift--hover border-0 portfolio-card">
+                                <Card className="card-lift--hover border-0 portfolio-card card-bottom-spacing">
                                     <CardBody className="py-5">
                                         <img
                                             className="img-fluid rounded portfolio-img mb-4"
                                             src="/images/rsbedinfo_banner.jpg"
-                                            alt="Hospital Information Apps"
+                                            alt="Hospital Information App"
                                         />
-                                        <h6 className="text-uppercase portfolio-title">Hospital Information Apps</h6>
+                                        <h6 className="text-uppercase portfolio-title">Hospital Information App</h6>
                                         <p className="description mt-3">
                                             A mobile application that help you to find out hospital information in Indonesia.
                                         </p>
@@ -101,6 +101,93 @@ const Projectnya = () => {
                                         </div>
                                         <Button className="mt-4" color="primary" href="https://drive.google.com/file/d/1_VSZdE82O7dXQU9SY8gLt_uqRxJ6F2-Y/view?usp=sharing" target="_blank">
                                             Try Demo
+                                        </Button>
+                                    </CardBody>
+                                </Card>
+                            </Col>
+                            <Col lg="4">
+                                <Card className="card-lift--hover border-0 portfolio-card card-bottom-spacing">
+                                    <CardBody className="py-5">
+                                        <img
+                                            className="img-fluid rounded portfolio-img mb-4"
+                                            src="/images/aguadigi_banner.jpg"
+                                            alt="Water Usage Monitoring App"
+                                        />
+                                        <h6 className="text-uppercase portfolio-title">Water Usage Monitoring App</h6>
+                                        <p className="description mt-3">
+                                            A mobile application that can help you to monitor water usage and water bills.
+                                        </p>
+                                        <div>
+                                            <Badge color="primary" pill className="mr-1">
+                                                Android
+                                            </Badge>
+                                            <Badge color="primary" pill className="mr-1">
+                                                Kotlin
+                                            </Badge>
+                                            <Badge color="primary" pill className="mr-1">
+                                                Mobile
+                                            </Badge>
+                                        </div>
+                                        <Button disabled className="mt-4" color="primary" href="#">
+                                            Owned by Client
+                                        </Button>
+                                    </CardBody>
+                                </Card>
+                            </Col>
+                            <Col lg="4">
+                                <Card className="card-lift--hover border-0 portfolio-card card-bottom-spacing">
+                                    <CardBody className="py-5">
+                                        <img
+                                            className="img-fluid rounded portfolio-img mb-4"
+                                            src="/images/eticket_banner.jpg"
+                                            alt="Ticketing App"
+                                        />
+                                        <h6 className="text-uppercase portfolio-title">Ticketing App</h6>
+                                        <p className="description mt-3">
+                                            A mobile application that can help you to order tickets for the tourism object.
+                                        </p>
+                                        <div>
+                                            <Badge color="primary" pill className="mr-1">
+                                                Android
+                                            </Badge>
+                                            <Badge color="primary" pill className="mr-1">
+                                                Java
+                                            </Badge>
+                                            <Badge color="primary" pill className="mr-1">
+                                                Mobile
+                                            </Badge>
+                                        </div>
+                                        <Button disabled className="mt-4" color="primary" href="#">
+                                            Owned by Client
+                                        </Button>
+                                    </CardBody>
+                                </Card>
+                            </Col>
+                            <Col lg="4">
+                                <Card className="card-lift--hover border-0 portfolio-card card-bottom-spacing">
+                                    <CardBody className="py-5">
+                                        <img
+                                            className="img-fluid rounded portfolio-img mb-4"
+                                            src="/images/spkt_banner.jpg"
+                                            alt="Online Permission App"
+                                        />
+                                        <h6 className="text-uppercase portfolio-title">Online Permission App</h6>
+                                        <p className="description mt-3">
+                                            A mobile application that can help you to request a document according to your needs.
+                                        </p>
+                                        <div>
+                                            <Badge color="primary" pill className="mr-1">
+                                                Android
+                                            </Badge>
+                                            <Badge color="primary" pill className="mr-1">
+                                                Java
+                                            </Badge>
+                                            <Badge color="primary" pill className="mr-1">
+                                                Mobile
+                                            </Badge>
+                                        </div>
+                                        <Button disabled className="mt-4" color="primary" href="#">
+                                            Owned by Client
                                         </Button>
                                     </CardBody>
                                 </Card>
