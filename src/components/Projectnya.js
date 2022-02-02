@@ -192,6 +192,35 @@ const Projectnya = () => {
                                     </CardBody>
                                 </Card>
                             </Col>
+                            <Col lg="4">
+                                <Card className="card-lift--hover border-0 portfolio-card card-bottom-spacing">
+                                    <CardBody className="py-5">
+                                        <img
+                                            className="img-fluid rounded portfolio-img mb-4"
+                                            src="/images/tbm_banner.jpg"
+                                            alt="Tour App"
+                                        />
+                                        <h6 className="text-uppercase portfolio-title">Tour App</h6>
+                                        <p className="description mt-3">
+                                            A mobile application that can help you to create your tour plan in Bali easily.
+                                        </p>
+                                        <div>
+                                            <Badge color="primary" pill className="mr-1">
+                                                IOS
+                                            </Badge>
+                                            <Badge color="primary" pill className="mr-1">
+                                                Swift
+                                            </Badge>
+                                            <Badge color="primary" pill className="mr-1">
+                                                Mobile
+                                            </Badge>
+                                        </div>
+                                        <Button disabled className="mt-4" color="primary" href="#">
+                                            Owned by Client
+                                        </Button>
+                                    </CardBody>
+                                </Card>
+                            </Col>
                         </Row>
                     </Col>
                 </Row>
