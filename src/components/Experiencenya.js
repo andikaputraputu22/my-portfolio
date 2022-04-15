@@ -23,7 +23,15 @@ const Experiencenya = () => {
                             <ul>
                                 <li>
                                     <div className="timeline-content">
-                                        <span className="date">2018 - Present</span>
+                                        <span className="date">2022 - Present</span>
+                                        <h2>Trans Digital Media</h2>
+                                        <span className="role">IT Mobile Apps Developer (Android)</span>
+                                        <p>Maintain user satisfaction by providing and maintaining quality application products.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="timeline-content">
+                                        <span className="date">2018 - 2022</span>
                                         <h2>Appkey Indonesia</h2>
                                         <span className="role">Frontend Developer</span>
                                         <p>With responsibility and wholeheartedly as a Frontend Developer. Especially for mobile applications.</p>
