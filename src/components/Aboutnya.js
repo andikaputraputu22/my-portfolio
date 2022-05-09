@@ -35,6 +35,7 @@ const Aboutnya = () => {
                                     <span className="d-block mb-1">I Putu Andika Putra, S.Kom., BIT</span>
                                     <small className="h6 text-muted">Mobile and Web Developer</small>
                                     <div className="h6 text-muted mt-1">Bali - Indonesia</div>
+                                    <div className="h6 text-muted mt-1">I Love You</div>
                                 </h5>
                                 <div className="mt-3">
                                     <Button className="btn-icon-only rounded-circle" color="primary" href="https://www.linkedin.com/in/i-putu-andika-putra-s-kom-bit-9a05821b5/" target="_blank">
