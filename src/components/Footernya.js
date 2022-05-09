@@ -17,7 +17,7 @@ const Footernya = () => {
                     <Row className="align-items-center justify-content-md-between footer-content">
                         <Col md="6">
                             &copy; {new Date().getFullYear()}{" "}
-                            <span>MoonlightSplitter Keren</span>
+                            <span>MoonlightSplitter</span>
                         </Col>
                         <Col md="6">
                             <Nav className="nav-footer justify-content-end">
