@@ -68,6 +68,14 @@ const Projectnya = () => {
             link: "#",
             tag: ["IOS", "Swift", "Mobile"],
             type: 1
+        },
+        {
+            photo: "jukir_banner.jpg",
+            title: "Online Parking App",
+            description: "A mobile application that can help you to find and book a parking slot easily.",
+            link: "#",
+            tag: ["Android", "Java", "Mobile"],
+            type: 1
         }
     ]
 

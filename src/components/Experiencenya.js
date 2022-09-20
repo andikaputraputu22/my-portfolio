@@ -24,7 +24,7 @@ const Experiencenya = () => {
                                 <li>
                                     <div className="timeline-content">
                                         <span className="date">2022 - Present</span>
-                                        <h2>Trans Digital Media</h2>
+                                        <h2>Detikcom</h2>
                                         <span className="role">IT Mobile Apps Developer (Android)</span>
                                         <p>Maintain user satisfaction by providing and maintaining quality application products.</p>
                                     </div>
