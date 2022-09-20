@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollToTop from "react-scroll-to-top";
 import {
     Container,
     Row,
@@ -41,6 +42,7 @@ const Footernya = () => {
                     </Row>
                 </Container>
             </footer>
+            <ScrollToTop smooth />
         </div>
     )
 }
