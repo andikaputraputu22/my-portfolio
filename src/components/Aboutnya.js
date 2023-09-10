@@ -33,11 +33,11 @@ const Aboutnya = () => {
                             <div className="pt-4 text-center">
                                 <h5 className="title">
                                     <span className="d-block mb-1">I Putu Andika Putra, S.Kom., BIT</span>
-                                    <small className="h6 text-muted">Mobile and Web Developer</small>
+                                    <small className="h6 text-muted">Android Developer</small>
                                     <div className="h6 text-muted mt-1">Bali - Indonesia</div>
                                 </h5>
                                 <div className="mt-3">
-                                    <Button className="btn-icon-only rounded-circle" color="primary" href="https://www.linkedin.com/in/i-putu-andika-putra-s-kom-bit-9a05821b5/" target="_blank">
+                                    <Button className="btn-icon-only rounded-circle" color="primary" href="https://www.linkedin.com/in/andikaputraputu/" target="_blank">
                                         <i className="fa fa-linkedin" />
                                     </Button>
                                     <Button className="btn-icon-only rounded-circle ml-1" color="primary" href="https://www.facebook.com/profile.php?id=100032534376429" target="_blank">
