@@ -81,7 +81,7 @@ const Contactnya = () => {
                                 </div>
                                 <div className="mt-4">
                                     <h6 className="text-white"><b>Location</b></h6>
-                                    <p className="text-white">Denpasar, Bali - Indonesia</p>
+                                    <p className="text-white">Jakarta - Indonesia</p>
                                 </div>
                             </Col>
                             <Col lg="6" md="6" className="form-wrapper">

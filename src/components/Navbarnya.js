@@ -22,7 +22,7 @@ class Navbarnya extends Component {
     state = {
         collapseClasses: "",
         collapseOpen: false,
-        logo_title: "<MS/>"
+        logo_title: "<AP/>"
     };
 
     onExiting = () => {

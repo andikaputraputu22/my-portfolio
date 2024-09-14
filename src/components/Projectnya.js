@@ -76,6 +76,22 @@ const Projectnya = () => {
             link: "#",
             tag: ["Android", "Java", "Mobile"],
             type: 1
+        },
+        {
+            photo: "essay_banner.jpg",
+            title: "Essay Collection App",
+            description: "A mobile application that can help you to read and improve your English skills.",
+            link: "#",
+            tag: ["Android", "Compose", "Kotlin", "Mobile"],
+            type: 1
+        },
+        {
+            photo: "image_collector_banner.jpg",
+            title: "Image Collector App",
+            description: "A mobile application that can help you to get a random image, with the size you set yourself.",
+            link: "#",
+            tag: ["Android", "Kotlin", "Mobile"],
+            type: 1
         }
     ]
 

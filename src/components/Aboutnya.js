@@ -8,7 +8,7 @@ import {
 
 const Aboutnya = () => {
 
-    let data_about = "Experienced Software Engineer with a demonstrated history of working in the information technology and services industry. Skilled in Mobile Application Development (Android and iOS), Kotlin, Java, Swift, Flutter, Fullstack application using Laravel, and Frontend application using ReactJS. Strong engineering professional with a Bachelor of Information Technology focused in Information Technology from HELP University."
+    let data_about = "Experienced Software Engineer with a demonstrated history of working in the information technology and services industry. Skilled in Mobile Application Development (Android and iOS), Kotlin, Java, Swift, Fullstack application using Laravel, and Frontend application using ReactJS. Strong engineering professional with a Bachelor of Information Technology focused in Information Technology from HELP University."
 
     return (
         <section id="section_about" className="section section-lg">

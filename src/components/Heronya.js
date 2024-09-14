@@ -19,7 +19,7 @@ const Heronya = () => {
                                 <Col className="text-center" lg="6">
                                     <h1 className="display-3 text-white">
                                         Hi Friends, Welcome{" "}
-                                        <span>MoonlightSplitter's Portfolio</span>
+                                        <span>AndikaPutra's Portfolio</span>
                                     </h1>
                                     <p className="lead text-white">
                                         Nice to meet you. How are you today? It's a great day. Hope all of you have a great day too.
