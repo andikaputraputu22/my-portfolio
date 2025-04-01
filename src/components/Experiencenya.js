@@ -33,8 +33,8 @@ const Experiencenya = () => {
                                     <div className="timeline-content">
                                         <span className="date">2018 - 2022</span>
                                         <h2>Appkey Indonesia</h2>
-                                        <span className="role">Frontend Developer</span>
-                                        <p>With responsibility and wholeheartedly as a Frontend Developer. Especially for mobile applications.</p>
+                                        <span className="role">Android Developer</span>
+                                        <p>With responsibility and wholeheartedly as a Frontend Developer. Especially for Android mobile applications.</p>
                                     </div>
                                 </li>
                                 <li>

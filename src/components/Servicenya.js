@@ -28,20 +28,20 @@ const Servicenya = () => {
                             </Col>
                             <Col lg="4" md="4" className="col-skill">
                                 <div className="wrapper-skill">
-                                    <i class="devicon-swift-plain"></i>
-                                    <h3 className="heading custom-heading">Swift</h3>
-                                </div>
-                            </Col>
-                            <Col lg="4" md="4" className="col-skill">
-                                <div className="wrapper-skill">
                                     <i class="devicon-java-plain"></i>
                                     <h3 className="heading custom-heading">Java</h3>
                                 </div>
                             </Col>
                             <Col lg="4" md="4" className="col-skill">
                                 <div className="wrapper-skill">
-                                    <i class="devicon-flutter-plain"></i>
-                                    <h3 className="heading custom-heading">Flutter</h3>
+                                    <i class="devicon-jetpackcompose-plain"></i>
+                                    <h3 className="heading custom-heading">Compose</h3>
+                                </div>
+                            </Col>
+                            <Col lg="4" md="4" className="col-skill">
+                                <div className="wrapper-skill">
+                                    <i class="devicon-swift-plain"></i>
+                                    <h3 className="heading custom-heading">Swift</h3>
                                 </div>
                             </Col>
                             <Col lg="4" md="4" className="col-skill">

@@ -8,7 +8,7 @@ import {
 
 const Aboutnya = () => {
 
-    let data_about = "Experienced Software Engineer with a demonstrated history of working in the information technology and services industry. Skilled in Mobile Application Development (Android and iOS), Kotlin, Java, Swift, Fullstack application using Laravel, and Frontend application using ReactJS. Strong engineering professional with a Bachelor of Information Technology focused in Information Technology from HELP University."
+    let data_about = "Android Developer with 6+ years of experience in designing, developing, and optimizing high-performance mobile applications. Proficient in Jetpack Compose, Kotlin, and modern Android development. Passionate about feature implementation, bug fixing, performance optimization, and ensuring seamless user experiences through efficient coding practices."
 
     return (
         <section id="section_about" className="section section-lg">
@@ -34,7 +34,7 @@ const Aboutnya = () => {
                                 <h5 className="title">
                                     <span className="d-block mb-1">I Putu Andika Putra, S.Kom., BIT</span>
                                     <small className="h6 text-muted">Android Developer</small>
-                                    <div className="h6 text-muted mt-1">Bali - Indonesia</div>
+                                    <div className="h6 text-muted mt-1">Jakarta - Indonesia</div>
                                 </h5>
                                 <div className="mt-3">
                                     <Button className="btn-icon-only rounded-circle" color="primary" href="https://www.linkedin.com/in/andikaputraputu/" target="_blank">

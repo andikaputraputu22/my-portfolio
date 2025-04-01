@@ -81,9 +81,9 @@ const Projectnya = () => {
             photo: "essay_banner.jpg",
             title: "Essay Collection App",
             description: "A mobile application that can help you to read and improve your English skills.",
-            link: "#",
+            link: "https://play.google.com/store/apps/details?id=com.yusufeka.essay&hl=en",
             tag: ["Android", "Compose", "Kotlin", "Mobile"],
-            type: 1
+            type: 0
         },
         {
             photo: "image_collector_banner.jpg",
@@ -92,6 +92,14 @@ const Projectnya = () => {
             link: "#",
             tag: ["Android", "Kotlin", "Mobile"],
             type: 1
+        },
+        {
+            photo: "vliloom_banner.jpg",
+            title: "Vliloom",
+            description: "An application that provides high-quality videos you can use everywhere.",
+            link: "https://youtu.be/XkylUlPUl-0",
+            tag: ["Android", "Kotlin", "Mobile"],
+            type: 0
         }
     ]
 
