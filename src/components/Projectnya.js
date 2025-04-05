@@ -89,9 +89,9 @@ const Projectnya = () => {
             photo: "image_collector_banner.jpg",
             title: "Image Collector App",
             description: "A mobile application that can help you to get a random image, with the size you set yourself.",
-            link: "#",
+            link: "https://youtube.com/shorts/dp-b-37Jr_g",
             tag: ["Android", "Kotlin", "Mobile"],
-            type: 1
+            type: 0
         },
         {
             photo: "vliloom_banner.jpg",
