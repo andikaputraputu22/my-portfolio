@@ -35,7 +35,7 @@ const Projectnya = () => {
             description: "A mobile application that help you to find out hospital information in Indonesia.",
             link: "https://drive.google.com/file/d/1_VSZdE82O7dXQU9SY8gLt_uqRxJ6F2-Y/view?usp=sharing",
             tag: ["Android", "Kotlin", "Mobile"],
-            type: -1
+            type: 0
         },
         {
             photo: "aguadigi_banner.jpg",
@@ -100,6 +100,14 @@ const Projectnya = () => {
             link: "https://youtu.be/XkylUlPUl-0",
             tag: ["Android", "Kotlin", "Mobile"],
             type: 0
+        },
+        {
+            photo: "parentshots_banner.jpg",
+            title: "ParentShots",
+            description: "An application that provides news, information, tips and tricks about moms and parenting.",
+            link: "https://github.com/andikaputraputu22/ParentShots",
+            tag: ["Android", "Compose", "Kotlin", "Mobile"],
+            type: -1
         }
     ]
 
@@ -121,7 +129,7 @@ const Projectnya = () => {
                             })}
                         </div>
                         <Button disabled={item.type === 1 ? true : false} className="mt-4" color="primary" href={item.link} target="_blank">
-                            {item.type === 0 ? "Show Demo" : item.type === -1 ? "Try Demo" : "Owned by Client"}
+                            {item.type === 0 ? "Show Demo" : item.type === -1 ? "In Development" : "Owned by Client"}
                         </Button>
                     </CardBody>
                 </Card>
