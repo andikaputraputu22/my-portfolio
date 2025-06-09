@@ -108,6 +108,14 @@ const Projectnya = () => {
             link: "https://github.com/andikaputraputu22/ParentShots",
             tag: ["Android", "Compose", "Kotlin", "Mobile"],
             type: -1
+        },
+        {
+            photo: "chatloom_banner.jpg",
+            title: "Chatloom",
+            description: "A personal AI assistant inspired by ChatGPT. Built with curiosity and a passion for AI.",
+            link: "https://www.youtube.com/shorts/fHe_c6k-NWs",
+            tag: ["Android", "Compose", "Kotlin", "AI", "Firebase"],
+            type: 0
         }
     ]
 
