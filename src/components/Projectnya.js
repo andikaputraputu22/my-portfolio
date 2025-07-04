@@ -83,7 +83,7 @@ const Projectnya = () => {
             description: "A mobile application that can help you to read and improve your English skills.",
             link: "https://play.google.com/store/apps/details?id=com.yusufeka.essay&hl=en",
             tag: ["Android", "Compose", "Kotlin", "Mobile"],
-            type: 0
+            type: 2
         },
         {
             photo: "image_collector_banner.jpg",
@@ -97,9 +97,9 @@ const Projectnya = () => {
             photo: "vliloom_banner.jpg",
             title: "Vliloom",
             description: "An application that provides high-quality videos you can use everywhere.",
-            link: "https://youtu.be/XkylUlPUl-0",
+            link: "https://appgallery.huawei.com/app/C114395959",
             tag: ["Android", "Kotlin", "Mobile"],
-            type: 0
+            type: 2
         },
         {
             photo: "parentshots_banner.jpg",
@@ -137,7 +137,7 @@ const Projectnya = () => {
                             })}
                         </div>
                         <Button disabled={item.type === 1 ? true : false} className="mt-4" color="primary" href={item.link} target="_blank">
-                            {item.type === 0 ? "Show Demo" : item.type === -1 ? "In Development" : "Owned by Client"}
+                            {item.type === 0 ? "Show Demo" : item.type === -1 ? "In Development" : item.type === 2 ? "Download on Store" : "Owned by Client"}
                         </Button>
                     </CardBody>
                 </Card>
